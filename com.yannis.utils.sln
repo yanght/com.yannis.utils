@@ -21,12 +21,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{863E48
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.yannis.client", "src\client\com.yannis.client\com.yannis.client.csproj", "{343E2BBF-A86F-4B65-9EEB-F767E4BAB6E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.yannis.client.Tests", "com.yannis.client.Tests\com.yannis.client.Tests.csproj", "{976B416E-347C-434E-85A2-BA91DC2D03A8}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{2DB9ACE0-A954-43CE-A857-3F912846E2E0}"
 	ProjectSection(SolutionItems) = preProject
 		doc\document.txt = doc\document.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.yannis.client.Tests", "src\client\com.yannis.client.Tests\com.yannis.client.Tests.csproj", "{976B416E-347C-434E-85A2-BA91DC2D03A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

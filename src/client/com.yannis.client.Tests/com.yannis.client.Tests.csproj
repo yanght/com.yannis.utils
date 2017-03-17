@@ -92,7 +92,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\src\client\com.yannis.client\com.yannis.client.csproj">
+    <ProjectReference Include="..\com.yannis.client\com.yannis.client.csproj">
       <Project>{343E2BBF-A86F-4B65-9EEB-F767E4BAB6E3}</Project>
       <Name>com.yannis.client</Name>
     </ProjectReference>
