@@ -25,7 +25,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.yannis.client.Tests", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{2DB9ACE0-A954-43CE-A857-3F912846E2E0}"
 	ProjectSection(SolutionItems) = preProject
-		document.txt = document.txt
+		doc\document.txt = doc\document.txt
 	EndProjectSection
 EndProject
 Global
