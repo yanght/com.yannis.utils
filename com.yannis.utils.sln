@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.yannis.utils", "src\utils\com.yannis.utils\com.yannis.utils.csproj", "{344FB9A3-2991-4930-8ED8-878EAA5F7C01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F43A5F34-9346-42BD-9496-AB9FC7CA67BF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utils", "utils", "{6C2FEA9E-C573-49D6-9E12-6799AD95A42D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{6F322D90-CE85-47D9-B834-0A4D6A6280BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{C96E9C1A-047A-483A-84F5-FEC1C1774EC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.yannis.test", "src\test\com.yannis.test\com.yannis.test.csproj", "{3B8B489E-16D2-4721-AD65-483770435AFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.yannis.core", "src\core\com.yannis.core\com.yannis.core.csproj", "{EFB4DEED-3D16-4E64-A833-454BCC203EDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "client", "client", "{863E48DF-AB9D-42B8-860B-2823CCE6DFD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.yannis.client", "src\client\com.yannis.client\com.yannis.client.csproj", "{343E2BBF-A86F-4B65-9EEB-F767E4BAB6E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.yannis.client.Tests", "com.yannis.client.Tests\com.yannis.client.Tests.csproj", "{976B416E-347C-434E-85A2-BA91DC2D03A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{2DB9ACE0-A954-43CE-A857-3F912846E2E0}"
+	ProjectSection(SolutionItems) = preProject
+		document.txt = document.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{344FB9A3-2991-4930-8ED8-878EAA5F7C01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{344FB9A3-2991-4930-8ED8-878EAA5F7C01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{344FB9A3-2991-4930-8ED8-878EAA5F7C01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{344FB9A3-2991-4930-8ED8-878EAA5F7C01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8B489E-16D2-4721-AD65-483770435AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8B489E-16D2-4721-AD65-483770435AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8B489E-16D2-4721-AD65-483770435AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8B489E-16D2-4721-AD65-483770435AFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFB4DEED-3D16-4E64-A833-454BCC203EDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFB4DEED-3D16-4E64-A833-454BCC203EDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFB4DEED-3D16-4E64-A833-454BCC203EDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFB4DEED-3D16-4E64-A833-454BCC203EDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{343E2BBF-A86F-4B65-9EEB-F767E4BAB6E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343E2BBF-A86F-4B65-9EEB-F767E4BAB6E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343E2BBF-A86F-4B65-9EEB-F767E4BAB6E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343E2BBF-A86F-4B65-9EEB-F767E4BAB6E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{976B416E-347C-434E-85A2-BA91DC2D03A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{976B416E-347C-434E-85A2-BA91DC2D03A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{976B416E-347C-434E-85A2-BA91DC2D03A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{976B416E-347C-434E-85A2-BA91DC2D03A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{344FB9A3-2991-4930-8ED8-878EAA5F7C01} = {6C2FEA9E-C573-49D6-9E12-6799AD95A42D}
+		{6C2FEA9E-C573-49D6-9E12-6799AD95A42D} = {F43A5F34-9346-42BD-9496-AB9FC7CA67BF}
+		{6F322D90-CE85-47D9-B834-0A4D6A6280BA} = {F43A5F34-9346-42BD-9496-AB9FC7CA67BF}
+		{C96E9C1A-047A-483A-84F5-FEC1C1774EC6} = {F43A5F34-9346-42BD-9496-AB9FC7CA67BF}
+		{3B8B489E-16D2-4721-AD65-483770435AFE} = {C96E9C1A-047A-483A-84F5-FEC1C1774EC6}
+		{EFB4DEED-3D16-4E64-A833-454BCC203EDF} = {6F322D90-CE85-47D9-B834-0A4D6A6280BA}
+		{863E48DF-AB9D-42B8-860B-2823CCE6DFD4} = {F43A5F34-9346-42BD-9496-AB9FC7CA67BF}
+		{343E2BBF-A86F-4B65-9EEB-F767E4BAB6E3} = {863E48DF-AB9D-42B8-860B-2823CCE6DFD4}
+		{976B416E-347C-434E-85A2-BA91DC2D03A8} = {863E48DF-AB9D-42B8-860B-2823CCE6DFD4}
+	EndGlobalSection
+EndGlobal
